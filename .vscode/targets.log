@@ -1,0 +1,261 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for arm-unknown-linux-gnueabihf
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Mar  8 08:51:27 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/kristofer/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/kristofer/p/kilo
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/kristofer/.vscode-server/bin/f30a9b73e8ffc278e71575118b6bf568f04587c8/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+SSH_CONNECTION = fe80::1484:4893:75f9:f793%wlan0 52813 fe80::6cfa:af2b:76a7:dee6%wlan0 22
+# environment
+PATH = /home/kristofer/.vscode-server/bin/f30a9b73e8ffc278e71575118b6bf568f04587c8/bin:/home/kristofer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/tinygo/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1001
+# environment
+PICO_EXAMPLES_PATH = /home/kristofer/pico/pico-examples
+# environment
+TEXTDOMAIN = Linux-PAM
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-5bbeaa58-9e2c-4a29-94d9-dd75b1ae8ace.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/kristofer/p/kilo
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/kristofer
+# environment
+PICO_EXTRAS_PATH = /home/kristofer/pico/pico-extras
+# environment
+LOGNAME = kristofer
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+XDG_SESSION_ID = 458
+# environment
+USER = kristofer
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US.UTF-8
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = fe80::1484:4893:75f9:f793%wlan0 52813 22
+# environment
+MAIL = /var/mail/kristofer
+# environment
+PICO_PLAYGROUND_PATH = /home/kristofer/pico/pico-playground
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/kristofer/.vscode-server/bin/f30a9b73e8ffc278e71575118b6bf568f04587c8/bin/helpers/browser.sh
+# environment
+NO_AT_BRIDGE = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = en_US.UTF-8
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/kristofer/.vscode-server/bin/f30a9b73e8ffc278e71575118b6bf568f04587c8/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+PICO_SDK_PATH = /home/kristofer/pico/pico-sdk
+# default
+MAKE_HOST := arm-unknown-linux-gnueabihf
+# environment
+LANG = en_US.UTF-8
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=72/1024=7%, Rehash=0, Collisions=9/101=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 2622854): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: kilo
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-08 08:51:11.468125529
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+kilo: kilo.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := kilo
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := kilo.c
+# automatic
+# | := 
+# automatic
+# < := kilo.c
+# automatic
+# ^ := kilo.c
+# automatic
+# ? := kilo.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Makefile', line 4):
+	$(CC) -o kilo kilo.c -Wall -W -pedantic -std=c99
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	rm kilo
+
+# Not a target:
+kilo.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-08 08:51:11.468125529
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 141 B / avg = 7 B
+# current buf: size = 8174 B / used = 141 B / count = 19 / avg = 7 B
+
+# strcache performance: lookups = 30 / hit rate = 36%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Mon Mar  8 08:51:27 2021
+
+ 
