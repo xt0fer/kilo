@@ -660,7 +660,19 @@ void editorRefreshScreen(void) {
             char *c = r->render+E.coloff;
             int j;
             for (j = 0; j < len; j++) {
-                abAppend(&ab,c+j,1);
+                if (c[j] <= 26){
+                    char sym;
+                    //print control-char as low intensity
+                    abAppend(&ab,"\x1b[2m",4);
+                    if (c[j] <= 26)
+                        sym = '@'+c[j];
+                    else
+                        sym = '?';
+                    abAppend(&ab,&sym,1);
+                    abAppend(&ab,"\x1b[0m",4);
+                } else {
+                    abAppend(&ab,c+j,1);
+                }
             }
         }
         // set DEFAULT foreground color [39m
